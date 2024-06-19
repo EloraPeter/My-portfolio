@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- ------------Made by Elora-------------- -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELORA(FO)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>E<span>LORA</span></h1>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer, Web Developer, Designer</p>
+                <h1>Hi, I'm <span>Elora</span><br>from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Florence Ofuokwu, also known as "Elora" in the digital realm. Hailing from Nigeria, I'm not
+                        your typical techie – I'm a software sorcerer, a web wizard, and a design dreamweaver. Currently
+                        pursuing a software engineering major at the University of Delta, Nigeria, I'm unraveling the
+                        mysteries of code to realize my tech-savvy dreams.
+                    </p>
+                    <h3>My Mission</h3>
+                    <p>Crafting digital wonders that are not just aesthetically pleasing but also open the doors to a
+                        more inclusive online world.
+                    </p>
+                    <h3>My Vibe</h3>
+                    <p>Imagine me as a quietly confident tech whisperer, fueled by an insatiable hunger for knowledge.
+                        Every design problem is a puzzle, and I'm constantly honing my skills, one pixel at a time.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Website Design</span><br>Developing website </li>
+                            <li><span>Branding & LOGOs</span><br>Building brand identites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design Executive at Zulike Concepts</li>
+                            <li><span>2022 - 2023</span><br>Team lead at Zulike Concepts.</li>
+                            <li><span>2021 - 2022</span><br>UI/UX Design Training at IK Computer Village.</li>
+                            <li><span>2020 - 2021</span><br>IT Internship at Metrodec Construction Company.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>BSC Software Engineering at UNIDEL.</li>
+                            <li><span>2022-2023</span><br>Certificates from Coursera.</li>
+                            <li><span>2021</span><br>SSCE from KAS.</li>
+                            <li><span>2020</span><br>Introduction to software Engineering Certificate from UDEMY.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------service----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I enjoy crafting code to bring abstract concepts to life in web browsers, merging technical
+                        intricacies with creative satisfaction for better digital experiences.</p>
+                    <h3>Languages I Speak</h3>
+                    <p><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i> <i
+                            class="fa-brands fa-js"></i> <i class="fa-brands fa-react"></i></p>
+                    <h3>Devtools</h3>
+                    <p><i class="fa-brands fa-github"></i> <i class="fa-brands fa-wordpress"></i> <i
+                            class="fa-brands fa-wix"></i> <iconify-icon
+                            icon="vscode-icons:file-type-codekit"></iconify-icon> <iconify-icon
+                            icon="skill-icons:vscode-dark"></iconify-icon></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I prioritize seamless UI/UX with clear content structures, pristine design principles, and
+                        deliberate user interactions. My goal is to create user-friendly interfaces that seamlessly
+                        blend elegance and functionality, ensuring a harmonious digital experience.
+                    </p>
+                    <h3>Design Tools</h3>
+                    <p> <iconify-icon icon="simple-icons:canva"></iconify-icon> <i class="fa-brands fa-figma"></i>
+                        <iconify-icon icon="file-icons:adobe-photoshop"></iconify-icon> <iconify-icon
+                            icon="simple-icons:adobeillustrator"></iconify-icon>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Branding & Logo</h2>
+                    <p>I joyfully craft brand identities and logos, turning abstract concepts into visually striking
+                        representations. The synergy of creativity and brand messaging fuels my passion, focusing on
+                        translating brand values into distinctive, memorable visuals.</p>
+                    <h3>Design Tools</h3>
+                    <p> <iconify-icon icon="simple-icons:canva"></iconify-icon> <iconify-icon
+                            icon="file-icons:coreldraw"></iconify-icon> <iconify-icon
+                            icon="file-icons:adobe-photoshop"></iconify-icon> <iconify-icon
+                            icon="simple-icons:adobeillustrator"></iconify-icon>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------projects------------------------------ -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work 1.png">
+                    <div class="layer">
+                        <h3>Social Media Websites</h3>
+                        <p>A platform that shape how we connect, share, and stay informed in our digital world.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 2.png">
+                    <div class="layer">
+                        <h3>Multipage Websites</h3>
+                        <p>From business portfolios to information hubs, multipage websites ensure a seamless and
+                            responsive online presence.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 3.png">
+                    <div class="layer">
+                        <h3>Online Shopping Websites</h3>
+                        <p>Convenience, diverse products, secure transactions, a modern consumers' go-to choice.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/the new one  blue.png">
+                    <div class="layer">
+                        <h3>LOGOs</h3>
+                        <p>A unique design that represents your organization, brand, or product
+                        </p>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 1.png">
+                    <div class="layer">
+                        <h3>User Interface(UI/UX) Designs</h3>
+                        <p>Blending creativity and functionality for seamless user interaction and visual appeal,
+                            enhance your brand presence.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 1.png">
+                    <div class="layer">
+                        <h3>Brand Development</h3>
+                        <p>Build recognition and trust by creating a distinctive business identity.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------------------testimonials------------------------------>
+
+    <section id="testimonials">
+        <div class="container">
+            <h1 class="sub-title">Testimonials</h1>
+            <h2>Why Choose Us?</h2>
+            <div class="choose"><img src="images/untitled 2.png"></div>
+            <h2>From Our Clients</h2>
+            <div class="wrapper">
+                <div class="box">
+                    <i class="icon fa-solid fa-quote-left"></i>
+                    <p>"Working with Elora on our logo design was effortless. They grasped our brand's essence and
+                        goals, delivering a logo that flawlessly embodies our identity. Elora's strategic thinking adds
+                        immense value to the branding process. We're thrilled with our logo."</p>
+                    <div class="content">
+                        <div class="info">
+                            <div class="name">Remilekun A. Sorinade</div>
+                            <div class="job">CEO GistBell Media</div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                        <div class="image"><img src="images/client 1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="icon fa-solid fa-quote-left"></i>
+                    <p>"We hired Elora to revitalize our brand visuals, and the outcome was phenomenal. Their design
+                        concepts not only captivated visually but also seamlessly aligned with our brand identity. Elora
+                        possesses a unique talent for translating concepts into compelling visuals that resonate with
+                        our target audience."</p>
+                    <div class="content">
+                        <div class="info">
+                            <div class="name">Maureen Ogugua</div>
+                            <div class="job">CEO Oriflame Team Excel</div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="image"><img src="images/client 3.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="icon fa-solid fa-quote-left"></i>
+                    <p>"Collaborating with Elora was a delight from start to finish. Her fresh perspective on our
+                        website design and logo surpassed our expectations. Elora's unmatched expertise and dedication
+                        to customer satisfaction make her a valuable partner. Excited about future collaborations with
+                        Elora."</p>
+                    <div class="content">
+                        <div class="info">
+                            <div class="name">Vivian Nwanneamaka</div>
+                            <div class="job">School Owner</div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="image"><img src="images/client2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a
+                            href="mailto:florenceonyi09@gmail.com?">florenceonyi09@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i>+2348105769233</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/florence.ofuokwu.71"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://codepen.io/EloraPeter"><i class="fa-brands fa-codepen"></i></a>
+                        <a href="https://x.com/EloraPeter?t=csWjtGJeGUWVloDn60QCMg&s=09"><i
+                                class="fa-brands fa-twitter-square"></i></a>
+                        <a href="http://www.youtube.com/@florenceofuokwu5679"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/florence-ofuokwu-6538b6212?"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/EloraPeter"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="1" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Elora. Made with <i class="fa-regular fa-heart"></i> by Elora</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
